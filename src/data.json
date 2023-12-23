@@ -1,0 +1,33 @@
+{"Roles" : [
+    {
+    "id": "1",
+    "name": "Client",
+    "permissions": ["1"]
+    },
+    {
+    "id": "2",
+    "name": "Administrator",
+    "permissions": ["1", "2", "3"]
+    },
+    {
+    "id": "3",
+    "name": "Auditor",
+    "permissions": ["1", "2"]
+    }
+   ],
+
+   "Permissions":[
+    {
+    "id": "1",
+    "name": "Read"
+    },
+    {
+    "id": "2",
+    "name": "Edit"
+    },
+    {
+    "id": "3",
+    "name": "Delete"
+    }
+   ]
+}
